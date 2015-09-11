@@ -1,10 +1,104 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: The Scorecard
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<!-- Banner -->
+<div class="banner">
+  <div class="banner-text">
+    <h1>Baseball Tools</h1>
+    <h3>Insight, Strategy, Information</h3>
+    <br>
+    <button type="button" class="btn btn-default">Play Ball</button>
+  </div>
+</div>
+
+<!-- Cards -->
+<div class="padded">
+  <div class="container">
+    <div class="col-xs-12 col-md-3">
+      <div class="feature">
+        <h3><%= image_tag "chat.png" %> Fan Debate</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero recusandae animi doloribus, debitis, quisquam autem libero beatae numquam iusto, ratione perspiciatis iste ducimus ea ullam repudiandae id alias exercitationem.
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-3">
+      <div class="feature">
+        <h3><%= image_tag "mobile.png" %> From the Stands</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero recusandae animi doloribus, debitis, quisquam autem libero beatae numquam iusto, ratione perspiciatis iste ducimus ea ullam repudiandae id alias exercitationem.
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-3">
+      <div class="feature">
+        <h3><%= image_tag "search.png" %> Every Player</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero recusandae animi doloribus, debitis, quisquam autem libero beatae numquam iusto, ratione perspiciatis iste ducimus ea ullam repudiandae id alias exercitationem.
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-3">
+      <div class="feature">
+        <h3><%= image_tag "heart.png" %> Passion At Bat</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero recusandae animi doloribus, debitis, quisquam autem libero beatae numquam iusto, ratione perspiciatis iste ducimus ea ullam repudiandae id alias exercitationem.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padded" id="cards">
+  <div class="section-header">
+    <h2>Move Beyond the Boxscore</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <div class="card rounded" id="teams">
+          <div class="card-text rounded">
+            <h3>Team Analysis</h3>
+            <p>Check out your favorite team or keep tabs on your division rivals</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="card rounded" id="allstar">
+          <div class="card-text rounded">
+            <h3>All-Star Oversight</h3>
+            <p>Compare the game's best players and underrated statistical all-stars</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="card rounded" id="scorecard">
+          <div class="card-text rounded">
+            <h3>Explore Strategies</h3>
+            <p>Simulate manager decisions and see what works</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Newsletter -->
+<div class="newsletter padded">
+  <h2>Join our lineup</h2>
+  <p>We'll keep your inbox stocked with the hottest baseball analysis<p>
+  <form class="form-inline">
+      <label for="exampleInputEmail2">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="babe.ruth@nyy.com">
+    <button type="submit" class="btn btn-default">Swing</button>
+  </form>
+</div>
+
+<!-- Map -->
+
+<!-- Footer -->
+
+
+<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

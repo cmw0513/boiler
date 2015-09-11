@@ -1,0 +1,18 @@
+.banner {
+  background: image-url("baseball.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  h1 {
+    color: white;
+    font-weight: 700;
+  }
+  h3 {
+    color: lightgray;
+    font-weight: 300;
+  }
+}
+
+.banner-text{
+  text-align: center;
+}

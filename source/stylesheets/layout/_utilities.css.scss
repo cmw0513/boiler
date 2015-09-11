@@ -8,6 +8,23 @@
 .padded {
   padding-top: 5em;
   padding-bottom: 5em;
+  &-sm {
+    padding-bottom: 5em;
+  }
+}
+
+// Rounding
+.rounded {
+  border-radius: 2px;
+}
+
+// Sections
+.section-header {
+  text-align: center;
+  color: #93BB5B;
+}
+.newsletter {
+  text-align: center;
 }
 
 // Backgrounds
@@ -22,4 +39,21 @@
 }
 .bg-facebook {
   background: #3b5998;
+}
+
+// Text
+li a {
+  color: $green-light;
+  &:hover {
+    color: $green-dark;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+// Images
+.team {
+  width: 150px;
 }

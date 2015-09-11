@@ -1,0 +1,27 @@
+.card {
+  background-size: cover;
+  width: 100%;
+  margin: 10px;
+  &-text {
+    padding: 20px;
+    background-color: rgba(300,300,300,.85);
+    background-size: cover;
+    color: black;
+    min-height: 150px;
+  }
+}
+#teams {
+  background: image-url("dirt.jpg");
+}
+
+#allstar {
+  background: image-url("allstar2.jpg");
+}
+
+#scorecard {
+  background: image-url("scorecard.jpg");
+}
+
+#cards {
+  background-color: #313131;
+}

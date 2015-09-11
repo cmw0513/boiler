@@ -9128,6 +9128,14 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/* line 1, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_footer.css.scss */
+.footer {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: gray;
+  text-align: center; }
+
 /* line 1, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
@@ -9237,22 +9245,53 @@ button.close {
 .padded {
   padding-top: 5em;
   padding-bottom: 5em; }
+  /* line 11, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+  .padded-sm {
+    padding-bottom: 5em; }
 
-/* line 14, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 17, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+.rounded {
+  border-radius: 2px; }
+
+/* line 22, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+.section-header {
+  text-align: center;
+  color: #93BB5B; }
+
+/* line 26, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+.newsletter {
+  text-align: center; }
+
+/* line 31, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .bg-text {
   background: #4a4a4a; }
 
-/* line 17, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 34, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .bg-email {
   background: #aeaeae; }
 
-/* line 20, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 37, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .bg-twitter {
   background: #00a3e1; }
 
-/* line 23, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 40, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .bg-facebook {
   background: #3b5998; }
+
+/* line 45, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+li a {
+  color: #93BB5B; }
+  /* line 47, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+  li a:hover {
+    color: #4A5F2E; }
+
+/* line 52, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+.centered {
+  text-align: center; }
+
+/* line 57, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+.team {
+  width: 150px; }
 
 /* line 1, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_avatar.scss */
 .avatar {
@@ -9306,6 +9345,61 @@ button.close {
   .icon-badge-bordered, .user-badge-bordered {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
+
+/* line 1, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_banner.scss */
+.banner {
+  background: url("../images/baseball.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  /* line 6, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_banner.scss */
+  .banner h1 {
+    color: white;
+    font-weight: 700; }
+  /* line 10, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_banner.scss */
+  .banner h3 {
+    color: lightgray;
+    font-weight: 300; }
+
+/* line 16, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_banner.scss */
+.banner-text {
+  text-align: center; }
+
+/* line 1, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_card.scss */
+.card {
+  background-size: cover;
+  width: 100%;
+  margin: 10px; }
+  /* line 5, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_card.scss */
+  .card-text {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    background-size: cover;
+    color: black;
+    min-height: 150px; }
+
+/* line 13, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_card.scss */
+#teams {
+  background: url("../images/dirt.jpg"); }
+
+/* line 17, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_card.scss */
+#allstar {
+  background: url("../images/allstar2.jpg"); }
+
+/* line 21, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_card.scss */
+#scorecard {
+  background: url("../images/scorecard.jpg"); }
+
+/* line 25, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_card.scss */
+#cards {
+  background-color: #313131; }
+
+/* line 2, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_feature.scss */
+.feature img {
+  height: 1em; }
+/* line 5, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_feature.scss */
+.feature p {
+  color: darkgray; }
 
 /*
 ==============================================

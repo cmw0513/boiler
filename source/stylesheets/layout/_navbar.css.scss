@@ -1,27 +1,39 @@
 .navbar-wagon {
+  position: fixed;
+  width: 100%;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   &-logo {
     width: 50px;
   }
   &-container {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
     height: 70px;
     align-items: center;
   }
   &-item {
-    flex: 0 1 auto;
+    -webkit-flex: 0 1 auto;
+            flex: 0 1 auto;
     padding: 0 10px;
   }
   &-search {
-    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
     position: relative;
     &-btn {
       line-height: 40px;
-      color: #E6E6E6;
+      color: $brand-color;
       border: none;
       background: transparent;
       position: absolute;
@@ -30,7 +42,8 @@
       z-index: 1;
     }
     &-input {
-      flex: 0 1 300px;
+      -webkit-flex: 0 1 300px;
+              flex: 0 1 300px;
       transition: all 0.15s ease;
       line-height: 40px;
       font-weight: lighter;
@@ -57,7 +70,7 @@
     padding: 0 20px;
     border-radius: 20em;
     line-height: 40px;
-    background-color: #D23333;
+    background-color: $brand-color;
     color: white;
     font-size: 14px;
     border: 2px solid $brand-color;

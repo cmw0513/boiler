@@ -5,7 +5,7 @@ title: The Scorecard
 <!-- Banner -->
 <div class="banner">
   <div class="banner-text">
-    <h1>Baseball Tools</h1>
+    <h1 class= "bounce">Baseball Tools</h1>
     <h3>Insight, Strategy, Information</h3>
     <br>
     <button type="button" class="btn btn-default">Play Ball</button>
@@ -17,7 +17,7 @@ title: The Scorecard
   <div class="container">
     <div class="col-xs-12 col-md-3">
       <div class="feature">
-        <h3><%= image_tag "chat.png" %> Fan Debate</h3>
+        <h3 data-sr><%= image_tag "chat.png" %> Fan Debate</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero recusandae animi doloribus, debitis, quisquam autem libero beatae numquam iusto, ratione perspiciatis iste ducimus ea ullam repudiandae id alias exercitationem.
         </p>
@@ -25,7 +25,7 @@ title: The Scorecard
     </div>
     <div class="col-xs-12 col-md-3">
       <div class="feature">
-        <h3><%= image_tag "mobile.png" %> From the Stands</h3>
+        <h3 data-sr><%= image_tag "mobile.png" %> From the Stands</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero recusandae animi doloribus, debitis, quisquam autem libero beatae numquam iusto, ratione perspiciatis iste ducimus ea ullam repudiandae id alias exercitationem.
         </p>
@@ -33,7 +33,7 @@ title: The Scorecard
     </div>
     <div class="col-xs-12 col-md-3">
       <div class="feature">
-        <h3><%= image_tag "search.png" %> Every Player</h3>
+        <h3 data-sr><%= image_tag "search.png" %> Every Player</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero recusandae animi doloribus, debitis, quisquam autem libero beatae numquam iusto, ratione perspiciatis iste ducimus ea ullam repudiandae id alias exercitationem.
         </p>
@@ -41,7 +41,7 @@ title: The Scorecard
     </div>
     <div class="col-xs-12 col-md-3">
       <div class="feature">
-        <h3><%= image_tag "heart.png" %> Passion At Bat</h3>
+        <h3 data-sr><%= image_tag "heart.png" %> Passion At Bat</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero recusandae animi doloribus, debitis, quisquam autem libero beatae numquam iusto, ratione perspiciatis iste ducimus ea ullam repudiandae id alias exercitationem.
         </p>
@@ -52,7 +52,7 @@ title: The Scorecard
 
 <div class="padded" id="cards">
   <div class="section-header">
-    <h2>Move Beyond the Boxscore</h2>
+    <h2 data-sr>Move Beyond the Boxscore</h2>
   </div>
   <div class="container">
     <div class="row">
@@ -84,8 +84,8 @@ title: The Scorecard
   </div>
 </div>
 <!-- Newsletter -->
-<div class="newsletter padded">
-  <h2>Join our lineup</h2>
+<div id="signup" class="newsletter padded">
+  <h2 data-sr>Join our lineup</h2>
   <p>We'll keep your inbox stocked with the hottest baseball analysis<p>
   <form class="form-inline">
       <label for="exampleInputEmail2">Email</label>
@@ -102,3 +102,4 @@ title: The Scorecard
 <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+

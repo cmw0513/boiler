@@ -9138,38 +9138,48 @@ button.close {
 
 /* line 1, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
+  position: fixed;
+  width: 100%;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
   background: white; }
-  /* line 4, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+  /* line 6, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-logo {
     width: 50px; }
-  /* line 7, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+  /* line 9, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-container {
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    /* TWEENER - IE 10 */
+    /* NEW - Chrome */
     display: flex;
     height: 70px;
     align-items: center; }
-  /* line 12, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+  /* line 18, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-item {
     flex: 0 1 auto;
     padding: 0 10px; }
-  /* line 16, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+  /* line 23, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-search {
     flex: 1 1 auto;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    /* TWEENER - IE 10 */
+    /* NEW - Chrome */
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
     position: relative; }
-    /* line 22, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+    /* line 34, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-btn {
       line-height: 40px;
-      color: #E6E6E6;
+      color: #D23333;
       border: none;
       background: transparent;
       position: absolute;
       right: 10px;
       top: -2px;
       z-index: 1; }
-    /* line 32, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+    /* line 44, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-input {
       flex: 0 1 300px;
       transition: all 0.15s ease;
@@ -9181,18 +9191,18 @@ button.close {
       padding: 0 10px;
       font-size: 14px;
       outline: none; }
-    /* line 44, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+    /* line 57, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-input:focus {
       border: 1px solid #CCCCCC; }
-  /* line 48, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+  /* line 61, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-link {
     color: #616668;
     font-size: 14px; }
-    /* line 51, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+    /* line 64, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-link:hover {
       color: #da552f;
       text-decoration: none; }
-  /* line 56, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+  /* line 69, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-button {
     padding: 0 20px;
     border-radius: 20em;
@@ -9201,17 +9211,17 @@ button.close {
     color: white;
     font-size: 14px;
     border: 2px solid #D23333; }
-    /* line 65, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+    /* line 78, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-button:hover {
       color: white;
       background: #D23333;
       border-color: #ac2626; }
-  /* line 71, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+  /* line 84, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-dropdown-menu {
     margin-top: 15px;
     box-shadow: 1px 1px 4px #E6E6E6;
     border-color: #E6E6E6; }
-    /* line 75, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+    /* line 88, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu li > a {
       transition: color 0.3s ease;
       font-weight: lighter !important;
@@ -9219,11 +9229,11 @@ button.close {
       font-size: 15px !important;
       line-height: 22px !important;
       padding: 10px 20px; }
-      /* line 82, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+      /* line 95, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
       .navbar-wagon-dropdown-menu li > a:hover {
         background: transparent !important;
         color: black !important; }
-    /* line 87, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
+    /* line 100, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu:before {
       content: ' ';
       height: 20px;
@@ -9249,49 +9259,58 @@ button.close {
   .padded-sm {
     padding-bottom: 5em; }
 
-/* line 17, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 16, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+.container {
+  width: 90%; }
+
+/* line 21, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .rounded {
   border-radius: 2px; }
 
-/* line 22, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 26, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .section-header {
   text-align: center;
   color: #93BB5B; }
 
-/* line 26, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 30, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .newsletter {
   text-align: center; }
 
-/* line 31, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 35, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .bg-text {
   background: #4a4a4a; }
 
-/* line 34, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 38, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .bg-email {
   background: #aeaeae; }
 
-/* line 37, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 41, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .bg-twitter {
   background: #00a3e1; }
 
-/* line 40, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 44, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .bg-facebook {
   background: #3b5998; }
 
-/* line 45, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 49, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 li a {
   color: #93BB5B; }
-  /* line 47, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+  /* line 51, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
   li a:hover {
     color: #4A5F2E; }
 
-/* line 52, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 56, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .centered {
   text-align: center; }
 
-/* line 57, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+/* line 61, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
 .team {
-  width: 150px; }
+  width: 150px;
+  border-radius: 50%; }
+  /* line 64, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/layout/_utilities.css.scss */
+  .team-bordered {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border: white 1px solid; }
 
 /* line 1, /Users/christinawolfe/code/cmw0513/boiler/source/stylesheets/components/_avatar.scss */
 .avatar {
